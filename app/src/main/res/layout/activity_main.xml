@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textview"
+       android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Avaliable Coins:0"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+ <Button
+     android:layout_marginTop="40dp"
+     android:text="By some coins"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+
+    <Button
+
+        android:text="Earn coins by watching video"
+        android:layout_width="match_parent"
+        android:onClick="startVideoAdd"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
